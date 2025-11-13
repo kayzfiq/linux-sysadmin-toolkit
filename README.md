@@ -1,6 +1,6 @@
 # Linux SysAdmin Toolkit
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Linux](https://img.shields.io/badge/OS-Linux-blue.svg)](https://www.linux.org/)
 
