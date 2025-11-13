@@ -7,7 +7,9 @@
 A comprehensive collection of scripts, configurations, and automation tools for Linux system administration, built during my journey from network engineering to cybersecurity. This repository demonstrates practical infrastructure management skills with a focus on automation, security, and operational excellence.
 
 👤 About Me
+
 I'm an aspiring cybersecurity engineer with a strong foundation in networking and Linux system administration. My goal is to specialize in blue team operations and defensive security, and this repository represents my hands-on learning journey.
+
 Background:
 
 🌐 CCNA Certified - Strong understanding of networking fundamentals
@@ -17,6 +19,7 @@ Background:
 🎯 Career Path: Linux SysAdmin → Infrastructure Engineer → Cybersecurity Engineer
 
 Why This Repository?
+
 I believe the best way to learn is by doing. Rather than just studying theory, I'm building real infrastructure, automating tasks, documenting everything, and sharing it with the community. This repository serves as both my learning portfolio and a resource for others on similar paths.
 🎯 Overview
 This repository contains production-ready scripts and configurations developed while building practical system administration skills. Each tool addresses real-world infrastructure challenges with a security-first mindset.
