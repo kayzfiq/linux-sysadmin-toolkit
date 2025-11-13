@@ -2,6 +2,11 @@
 
 A comprehensive collection of scripts, configurations, and automation tools for Linux system administration, built during my journey from network engineering to cybersecurity. This repository demonstrates practical infrastructure management skills with a focus on automation, security, and operational excellence.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Linux](https://img.shields.io/badge/OS-Linux-blue.svg)](https://www.linux.org/)
+
+
 👤 About Me
 I'm an aspiring cybersecurity engineer with a strong foundation in networking and Linux system administration. My goal is to specialize in blue team operations and defensive security, and this repository represents my hands-on learning journey.
 Background:
