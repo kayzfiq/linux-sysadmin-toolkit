@@ -260,8 +260,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 - GitHub: [@kayzfiq](https://github.com/kayzfiq)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/kaye.shafiq)
-- Blog: [Your Blog](https://kayzfiq.github.io)
+- LinkedIn: [My LinkedIn](https://linkedin.com/in/kaye.shafiq)
+- Blog: [My Blog](https://kayzfiq.github.io)
 
 ##  Learning Journey
 
