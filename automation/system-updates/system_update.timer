@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Automatic System Updates daily
+Requires=system_update.service
+
+[Timer]
+OnCalendar=*-*-*-* 
+Persistent=true  
+RandomizedDelaySec=15min
+#Unit=system_update.service
+
+[Install]
+WantedBy=timers.target
