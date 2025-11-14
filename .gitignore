@@ -1,0 +1,29 @@
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Sensitive data
+*.pem
+*.key
+*_rsa
+*_dsa
+*_ecdsa
+*.env
+secrets/
+
+# Test files
+test-output/
