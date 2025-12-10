@@ -16,12 +16,13 @@ This solution provides automated package updates with comprehensive logging and 
 - ✅ Security-hardened systemd service
 
 ## 📦 Files
-
+```
 system-updates/
 ├── system-update.sh          # Main update script
 ├── system-update.service     # Systemd service file
 ├── system-update.timer       # Systemd timer file
 └── README.md                 # This file
+```
 
 
 ## 🚀 Quick Start
@@ -29,44 +30,46 @@ system-updates/
 ### Installation
 
 # Copy files to system locations
-sudo cp system-update.sh /usr/local/bin/
-sudo chmod +x /usr/local/bin/system-update.sh
+`sudo cp system-update.sh /usr/local/bin/`
+`sudo chmod +x /usr/local/bin/system-update.sh`
 
-sudo cp system-update.service /etc/systemd/system/
-sudo cp system-update.timer /etc/systemd/system/
+`sudo cp system-update.service /etc/systemd/system/`
+`sudo cp system-update.timer /etc/systemd/system/`
 
 # Enable and start the timer
-sudo systemctl daemon-reload
-sudo systemctl enable system-update.timer
-sudo systemctl start system-update.timer
+`sudo systemctl daemon-reload`
+
+`sudo systemctl enable system-update.timer`
+
+`sudo systemctl start system-update.timer`
 
 
 ### Verification
 
 # Check timer status
-systemctl status system-update.timer
+`systemctl status system-update.timer`
 
 # View next scheduled run
-systemctl list-timers system-update.timer
+`systemctl list-timers system-update.timer`
 
 
 ## 📊 Usage
 
 ### Manual Execution
 
-sudo systemctl start system-update.service
+`sudo systemctl start system-update.service`
 
 
 ### View Logs
 
 # Latest log
-sudo cat /var/log/system-updates/latest.log
+`sudo cat /var/log/system-updates/latest.log`
 
 # All logs
-ls -lh /var/log/system-updates/
+`ls -lh /var/log/system-updates/`
 
 # Systemd journal
-sudo journalctl -u system-update.service -n 50
+`sudo journalctl -u system-update.service -n 50`
 
 
 ## ⚙️ Configuration
