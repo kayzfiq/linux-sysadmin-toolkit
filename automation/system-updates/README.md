@@ -78,11 +78,11 @@ system-updates/
 
 Edit the timer file:
 
-sudo nano /etc/systemd/system/system-update.timer
+`sudo nano /etc/systemd/system/system-update.timer`
 
 
 Common schedules:
-
+```
 # Daily at 3 AM
 OnCalendar=*-*-* 03:00:00
 
@@ -91,19 +91,21 @@ OnCalendar=Sun *-*-* 02:00:00
 
 # Every 6 hours
 OnCalendar=*-*-* 00,06,12,18:00:00
+```
+
 
 
 Apply changes:
 
-sudo systemctl daemon-reload
-sudo systemctl restart system-update.timer
+`sudo systemctl daemon-reload`
+`sudo systemctl restart system-update.timer`
 
 
 ### Adjust Log Retention
 
 Edit script and modify:
 
-RETENTION_DAYS=30  # Change this value
+`RETENTION_DAYS=30`  # Change this value
 
 
 ## 🔍 Troubleshooting
@@ -111,19 +113,19 @@ RETENTION_DAYS=30  # Change this value
 ### Timer Not Running
 
 # Check if enabled
-systemctl is-enabled system-update.timer
+`systemctl is-enabled system-update.timer`
 
 # View errors
-systemctl status system-update.timer
+`systemctl status system-update.timer`
 
 
 ### Service Failures
 
 # View detailed errors
-sudo journalctl -xe -u system-update.service
+`sudo journalctl -xe -u system-update.service`
 
 # Test manually
-sudo /usr/local/bin/system-update.sh
+`sudo /usr/local/bin/system-update.sh`
 
 
 ## 📝 Log Format
