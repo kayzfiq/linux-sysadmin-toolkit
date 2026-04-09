@@ -3,10 +3,9 @@ Description=Run Automatic System Updates daily
 Requires=system_update.service
 
 [Timer]
-OnCalendar=*-*-*-* 
+OnCalendar=*:*:0/10 #Checks for updates every after 10 minutes 
 Persistent=true  
-RandomizedDelaySec=15min
-#Unit=system_update.service
+Unit=system_update.service
 
 [Install]
 WantedBy=timers.target
